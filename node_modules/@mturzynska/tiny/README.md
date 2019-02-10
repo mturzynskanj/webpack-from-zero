@@ -1,0 +1,2 @@
+# firstNpmModule
+creating npm module
