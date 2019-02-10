@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
 
-export const About = () => (
+ const About = () => (
     <div>
         <h4>About</h4>
     </div>
 )
+
+export default About

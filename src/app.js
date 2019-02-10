@@ -17,7 +17,7 @@ import './app.scss'
 import tiny from '@mturzynska/tiny'
 import { Home } from './home'
 import  Topics from './topics'
-import { About } from './about'
+import  About from './about'
 
 
 
@@ -34,6 +34,12 @@ console.log('what is tiny ', tiny('what the helll'))
 let loadableTopics = loadable({
     loader: () => import('./topics'),
     loading: ()=> <h3>Please wait....</h3>
+})
+
+
+let loadableAbout = loadable({
+    loader: ()=> import('./about'),
+    loading: ()=><h3>Please wait....</h3>
 })
 
 
